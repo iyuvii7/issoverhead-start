@@ -32,7 +32,7 @@ def send_email():
         connection.login(user=MY_EMAIL, password=MY_PASSWORD)
         connection.sendmail(from_addr=MY_EMAIL,
                             to_addrs="suwetayuvraj9411417@gmail.com",
-                            msg="Subject: Hey Look Up \n\n The ISIS is in the sky")
+                            msg="Subject: Hey Look Up \n\n The ISS is in the sky")
 
 
 def is_night():
